@@ -1,0 +1,40 @@
+.font-button-black {
+    font-size: 18px;
+    font-family: avalonregular, poppins, helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 0;
+    line-height: 27px;
+}
+
+.font-button-gold {
+    font-size: 18px;
+    font-family: avalonregular, poppins, helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(189, 162, 141, 1);
+    letter-spacing: 0;
+    line-height: 27px;
+}
+
+.font-skip {
+    font-size: 18px;
+    font-family: avalonregular, poppins, helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0;
+    line-height: 27px;
+}
+
+.colWarpper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rowWarpper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}

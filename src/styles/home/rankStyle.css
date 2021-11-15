@@ -1,0 +1,70 @@
+/*----------------- 布局 ---------------------*/
+.colWarpper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rowWarpper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/*----------- 字体 ----------------*/
+.font-rankNum {
+    font-size: 16px;
+    font-family: avalonregular, poppins, helvetica, sans-serif;
+    font-weight: 700;
+    color: rgba(189, 162, 141, 1);
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.font-name {
+    font-size: 12px;
+    font-family: avalonregular, poppins, helvetica, sans-serif;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.font-wealth {
+    letter-spacing: 0;
+    font-size: 14px;
+    font-family: avalonregular, poppins, helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(189, 162, 141, 1);
+    line-height: 18px;
+}
+
+.font-people {
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-family: avalonregular, poppins, helvetica, sans-serif;
+    font-weight: 400;
+    color: #BDA28D;
+    line-height: 18px;
+}
+
+.font-topName {
+    font-size: 14px;
+    font-family: avalonregular, poppins, helvetica, sans-serif;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0;
+    line-height: 14px;
+}
+
+.font-topWealth {
+    letter-spacing: 0;
+    font-size: 12px;
+    font-family: avalonregular, poppins, helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(189, 162, 141, 1);
+    line-height: 12px;
+}

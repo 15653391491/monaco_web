@@ -1,0 +1,162 @@
+
+.iconWrapper:hover {
+    cursor: pointer;
+}
+
+/*-------------- message -----------------*/
+.replyWarpper {
+    margin-top: 14px;
+}
+
+a {
+    color: rgba(50, 194, 255, 1);
+}
+
+.wrapper {
+    background: #1F1F1F;
+}
+
+.wrapper:hover {
+    background: #2A2A2A;
+}
+
+.imgWrapper {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.imgWrapper img {
+    width: 40px;
+    height: 40px;
+    margin-top: 13px;
+
+}
+
+.PostWrapper {
+    display: flex;
+    /*border-bottom: 1px solid #2E2E2E;*/
+    /*margin-bottom: 32px;*/
+}
+
+.wrapper {
+    border-bottom: 1px solid #2E2E2E;
+}
+
+.wrapper:nth-last-child(1) {
+    border-bottom-color: transparent;
+}
+
+.nameFortune {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likeCommentShareCopy {
+    display: flex;
+}
+
+.addComment {
+    display: flex;
+    margin-top: 31px;
+}
+
+.username {
+    font-family: avalonregular, poppins, helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.nameFortune {
+    height: 24px;
+    margin-top: 19px;
+}
+
+.netWorth {
+    margin-left: 8px;
+    height: 20px;
+    background-color: rgba(245, 166, 35, 0.2);
+    border-radius: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.netWorthNumber {
+    margin-left: 6px;
+    font-size: 10px;
+    color: #F5A623;
+}
+
+.likeNumber {
+    margin-left: 6px;
+    height: 16px;
+    font-size: 12px;
+    color: #898989;
+    line-height: 16px;
+}
+
+.commentNumber {
+    margin-left: 6px;
+    height: 16px;
+    font-size: 12px;
+    color: #BDA28D;
+    line-height: 16px;
+}
+
+.commentUserProfile img {
+    width: 40px;
+    height: 40px;
+}
+
+commentInputWrapper {
+    width: 504px;
+}
+
+.timeLikeComment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 17px;
+    margin-bottom: 13px;
+}
+
+.replyLikeCommentWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.replyContent {
+    width: 504px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #D4D4D4;
+    line-height: 24px;
+    -webkit-text-stroke: 0 #C4C4C4;
+    margin-bottom: 8px;
+}
+
+.replyLikeWrapper {
+    display: flex;
+    align-items: center;
+    height: 17px;
+}
+
+.replyCommentWrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.replyTime {
+    height: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #9F9D9D;
+    line-height: 16px;
+    -webkit-text-stroke: 0 #C4C4C4;
+    -webkit-background-clip: text;
+}
